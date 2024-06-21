@@ -1,6 +1,7 @@
 
 Présentation de l’application 
 Écran principale lorsqu’aucune tâche n’est encore ajouté 
+
 <img width="371" alt="image" src="https://github.com/hamiddiallo/toDoAppMobile/assets/130919033/a3d8e8dd-d361-4493-b5c1-29e8cf4b21d0">
 
 Fig : Écran d’ajout

@@ -3,8 +3,11 @@ Membre du groupe
 Mamadou Abdoul Hamid Diallo
 
 Ousmane Ali Brahim
+
 Isaac Feglar Fiacre Memini Edou
+
 Khadiatou Diallo
+
 Brahim Abdallahi Salem
 
 Explications des choix architecturaux et des étapes importantes :

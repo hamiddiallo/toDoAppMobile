@@ -1,5 +1,7 @@
-Membre du groupe \n
-Mamadou Abdoul Hamid Diallo \n
+Membre du groupe 
+
+Mamadou Abdoul Hamid Diallo
+
 Ousmane Ali Brahim
 Isaac Feglar Fiacre Memini Edou
 Khadiatou Diallo

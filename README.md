@@ -1,3 +1,25 @@
+Membre du groupe 
+Mamadou Abdoul Hamid Diallo
+Ousmane Ali Brahim
+Isaac Feglar Fiacre Memini Edou
+Khadiatou Diallo
+Brahim Abdallahi Salem
+
+Explications des choix architecturaux et des étapes importantes :
+1. Structure en StatefulWidget : Utilisation de StatefulWidget pour permettre la mise à jour de l'interface utilisateur lorsque les données changent.
+2. Controllers de texte : Utilisation de TextEditingController pour gérer la saisie de texte, facilitant l'accès aux données des champs de texte.
+3. Méthode initState : Initialisation des contrôleurs de texte avec les valeurs actuelles de la tâche pour pré-remplir les champs.
+4. Méthode dispose : Libération des ressources des contrôleurs de texte pour éviter les fuites de mémoire.
+5. Scaffold : Utilisation de Scaffold pour la structure de base de l’écran, avec une AppBar, un body et un FloatingActionButton.
+6. Méthodes pour construire des widgets : Division du code en méthodes privées (_buildHeader, _buildTextField, _buildEditButton, _buildStatusDropdown, _buildDropdownMenuItems, _buildSelectedItemWidgets) pour améliorer la lisibilité et la réutilisabilité du code.
+7. setState : Utilisation de setState pour mettre à jour l'interface utilisateur lorsque l'état de la page change, comme lors de la sélection d'un nouveau statut.
+8. Navigation : Utilisation de Navigator.pop pour revenir à la page précédente après la mise à jour de la tâche.
+9. Insertion dans la base de données : Appel à DatabaseHelper().insertTask pour insérer une nouvelle tâche dans la base de données.
+10. Mise à jour dans la base de données : Appel à DatabaseHelper().updateTask pour mettre à jour la tâche dans la base de données, suivi de l'appel du callback onUpdate pour notifier la mise à jour.
+11. Pattern Singleton 
+* Utilisation du pattern Singleton pour s'assurer qu'il n'y a qu'une seule instance de DatabaseHelper dans l'application.
+* DatabaseHelper._internal() : Constructeur privé pour empêcher la création de nouvelles instances directement.
+* factory DatabaseHelper() : Constructeur factory pour retourner l'instance unique.
 
 Présentation de l’application 
 Écran principale lorsqu’aucune tâche n’est encore ajouté 

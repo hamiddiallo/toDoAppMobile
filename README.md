@@ -1,14 +1,4 @@
-Membre du groupe 
 
-Mamadou Abdoul Hamid Diallo
-
-Ousmane Ali Brahim
-
-Isaac Feglar Fiacre Memini Edou
-
-Khadiatou Diallo
-
-Brahim Abdallahi Salem
 
 Explications des choix architecturaux et des étapes importantes :
 1. Structure en StatefulWidget : Utilisation de StatefulWidget pour permettre la mise à jour de l'interface utilisateur lorsque les données changent.
